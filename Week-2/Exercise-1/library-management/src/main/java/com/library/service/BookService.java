@@ -11,7 +11,7 @@ public class BookService {
     }
 
     public void displayService() {
-        System.out.println("Book Service is working...");
-        bookRepository.displayRepository();
+        System.out.println("Book Service: Calling Repository...");
+        bookRepository.displayBook();
     }
 }
